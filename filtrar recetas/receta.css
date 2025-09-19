@@ -46,3 +46,39 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* Estilos personalizados */
+
+main.container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+main p {
+    font-family: 'Roboto Sans Serif', sans-serif;
+
+}
+
+.volver {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #FF6600;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.detalle-seccion {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.detalle-seccion h2, main a {
+    margin-bottom: 12px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FF6600;
+}
