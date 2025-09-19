@@ -55,7 +55,7 @@ main.container {
     margin: 40px auto;
 }
 
-main p {
+main p, main pre, main h3 {
     font-family: 'Roboto Sans Serif', sans-serif;
 
 }
