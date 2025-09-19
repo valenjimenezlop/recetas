@@ -12,9 +12,46 @@ body {
     line-height: 1.6;
 }
 
+header {
+    background-color: #FF6600;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.header-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header-container nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.header-container nav a:hover {
+    opacity: 0.8;
+}
+
 .container {
     width: 100%;
-    margin: 40px auto;
+    margin: auto;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -123,4 +160,40 @@ h1 {
     outline: none;
     border-color: #FF6600;
     box-shadow: 0 6px 18px rgba(255, 102, 0, 0.08);
+}
+footer {
+    background-color: #FF6600;
+    /* Naranja */
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.icons{
+    width: 200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons i{
+    font-size: 20px;
+}
+
+.icons i:hover{
+    color: #363636;
 }

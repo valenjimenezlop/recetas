@@ -5,17 +5,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de Recetas</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <main class="container">
+    <header>
+        <div class="header-container">
+            <h1>🍽️ La cocina del Soft</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
         <h1>Lista de Recetas</h1>
-        <section id="recetas-container"></section>
-    </main>
+        <div id="recetas-container"></div>
+    </section>
+    <footer>
+        <section class="footer-container">
+            <p>© 2025 Recetas de cocina Soft, todos los derechos reservados. Desarrollado para amantes de la cocina.</p>
+            <article class="icons">
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </article>
+        </section>
+    </footer>
 
     <script src="script.js" type="module"></script>
     <script type="module" src="filtro.js"></script>
+    <script src="https://kit.fontawesome.com/6d12fa73b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
