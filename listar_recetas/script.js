@@ -11,7 +11,7 @@ function cargarRecetas() {
       <h2>${receta.nombre}</h2>
       <p><strong>Ingredientes:</strong> ${receta.ingredientes}</p>
       <p><strong>Tiempo estimado:</strong> ${receta.tiempo}</p>
-      <button class="btn-detalle" onclick="window.location.href='detalle-receta.html?index=${index}'">Ver Detalle</button>
+      <button class="btn-detalle" onclick="window.location.href='../filtrar recetas/receta.html?index=${index}'">Ver Detalle</button>
     `;
 
         container.appendChild(recetaElement);

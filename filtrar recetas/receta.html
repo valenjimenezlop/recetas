@@ -10,16 +10,19 @@
   <body>
     <main class="container">
       <a class="volver" href="../listar_recetas/index.html">👈 Regresar</a>
-      <section class="detalle-seccion">
-        <h2>Título de la receta</h2>
-        <p class="info"><span>Categoría:</span></p>
-        <p><span>Ingredientes:</span></p>
-        <p></p>
-        <p><span>Tiempo:</span></p>
-        <div>
-          <p>Instrucciones: </p>
+      <section class="detalle-seccion" id="detalle-seccion">
+        <h2 id="receta-nombre">Título de la receta</h2>
+        <p class="info"><strong>Categoría:</strong> <span id="receta-categoria">—</span></p>
+        <p><strong>Ingredientes:</strong></p>
+        <p id="receta-ingredientes"></p>
+        <p><strong>Tiempo:</strong> <span id="receta-tiempo"></span></p>
+        <div style="margin-top:16px;">
+          <h3>Instrucciones</h3>
+          <pre id="receta-instrucciones" style="white-space:pre-wrap;"></pre>
         </div>
       </section>
     </main>
+
+    <script type="module" src="mostrarInfoReceta.js"></script>
   </body>
 </html>
