@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -138,4 +139,20 @@ footer {
 
 .footer-container p {
     margin: 5px 0;
+    font-size: 14px;
+}
+
+.icons{
+    width: 200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons i{
+    font-size: 20px;
+}
+
+.icons i:hover{
+    color: #363636;
 }
